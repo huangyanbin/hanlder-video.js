@@ -1,7 +1,7 @@
 # Hander-video.js
 
 ------
-###为什么要写这个js
+### 为什么要写这个js
 在Android播放html视频的时候，发现原生的样式有点丑，在Github找到了[Video.js](https://github.com/videojs/video.js)。
 <br>
 导入之后发现在IOS端会自动全屏，这不是我们想要的效果，结果找到了[iphone-inline-video](https://github.com/bfred-it/iphone-inline-video)完美解决这个问题。
@@ -14,7 +14,7 @@
 还有视频封面，假设没有封面，开始想着取第一帧，失败了，想着在客户端没有封面实在太丑，就默认取查询html 第一张图片SRC给视频封面。
 
 
-###如何使用
+### 如何使用
 > * 导入css和js
 > *   window.onload = function () {
            initVideo(false,true);
